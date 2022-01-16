@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
-import logo from '../../public/yhr.png';
+import logo from '../../public/logo.png';
 import classes from './header.module.css';
 
 const Header: React.FC = () => {
@@ -13,12 +13,7 @@ const Header: React.FC = () => {
 		<header className={classes.container}>
 			<Link href='/'>
 				<a className={classes.logoContainer}>
-					<Image
-						src={logo}
-						alt='Author Initials'
-						blurDataURL='Logo'
-						placeholder='blur'
-					/>
+					<Image src={logo} alt='Author Initials' placeholder='blur' />
 				</a>
 			</Link>
 			<ul className={classes.nav}>
