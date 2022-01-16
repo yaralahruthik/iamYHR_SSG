@@ -17,12 +17,16 @@ body {
 	box-sizing: border-box;
 	background-color: #000;
 	color: #fff;
-  animation: fade 4s forwards;
+	animation: fade 4s forwards;
 }
 
 @keyframes fade {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 li {
@@ -31,4 +35,5 @@ li {
 
 a {
 	text-decoration: none;
+	color: #fff;
 }

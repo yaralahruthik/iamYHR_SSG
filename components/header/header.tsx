@@ -18,14 +18,10 @@ const Header: React.FC = () => {
 			</Link>
 			<ul className={classes.nav}>
 				<li className={classes.link}>
-					<Link href='/about'>
-						<a>About</a>
-					</Link>
+					<Link href='/about'>About</Link>
 				</li>
 				<li className={classes.link}>
-					<Link href='/contact'>
-						<a>Contact</a>
-					</Link>
+					<Link href='/contact'>Contact</Link>
 				</li>
 			</ul>
 		</header>

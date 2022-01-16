@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0.5rem;
+	margin: 1rem 2rem 1rem 1rem;
 }
 
 .logoContainer {
@@ -12,5 +12,50 @@
 
 .nav {
 	display: flex;
-	gap: 1rem;
+	gap: 1.5rem;
+}
+
+.link {
+	font-size: 1.4rem;
+	font-family: 'Josefin Slab', sans-serif;
+	font-weight: 400;
+}
+
+.link a:hover {
+	color: #ff0000;
+	transition: 2s;
+}
+
+.active a {
+	color: #ff0000;
+}
+
+@media only screen and (min-width: 60em) {
+	/* For tablets: */
+	.logoContainer {
+		width: 8rem;
+	}
+
+	.nav {
+		gap: 5rem;
+	}
+
+	.link {
+		font-size: 1.6rem;
+	}
+}
+
+@media only screen and (min-width: 76.8em) {
+	/* For desktop: */
+	.logoContainer {
+		width: 10rem;
+	}
+
+	.nav {
+		gap: 8rem;
+	}
+
+	.link {
+		font-size: 1.8rem;
+	}
 }
