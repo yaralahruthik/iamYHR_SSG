@@ -1,18 +1,19 @@
 import Head from 'next/head';
 
+import classes from './layout.module.css';
 import Header from '../components/header/header';
 
 const Layout: React.FC = ({ children }) => {
 	return (
-		<>
+		<div className={classes.container}>
 			<Head>
 				<title>YHR</title>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
 			<Header />
-			<>{children}</>
+			<main className={classes.main}>{children}</main>
 			<footer>Footer</footer>
-		</>
+		</div>
 	);
 };
 
