@@ -15,4 +15,14 @@ html {
 /* For width to not include padding and margin */
 body {
 	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }

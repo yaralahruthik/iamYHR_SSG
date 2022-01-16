@@ -1,27 +1,17 @@
-import Link from 'next/link';
+import Head from 'next/head';
+
+import Header from '../components/header/header';
 
 const Layout: React.FC = ({ children }) => {
 	return (
 		<>
-			<ul>
-				<li>
-					<Link href='/'>
-						<a>Home</a>
-					</Link>
-				</li>
-				<li>
-					<Link href='/about'>
-						<a>About</a>
-					</Link>
-				</li>
-				<li>
-					<Link href='/contact'>
-						<a>Contact</a>
-					</Link>
-				</li>
-			</ul>
+			<Head>
+				<title>YHR</title>
+				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
+			</Head>
+			<Header />
 			<>{children}</>
-			<div>Footer</div>
+			<footer>Footer</footer>
 		</>
 	);
 };
