@@ -17,10 +17,18 @@ const Header: React.FC = () => {
 				</a>
 			</Link>
 			<ul className={classes.nav}>
-				<li className={classes.link}>
+				<li
+					className={`${classes.link} ${
+						currentPath === '/about' ? classes.active : ''
+					}`}
+				>
 					<Link href='/about'>About</Link>
 				</li>
-				<li className={classes.link}>
+				<li
+					className={`${classes.link} ${
+						currentPath === '/contact' ? classes.active : ''
+					}`}
+				>
 					<Link href='/contact'>Contact</Link>
 				</li>
 			</ul>
