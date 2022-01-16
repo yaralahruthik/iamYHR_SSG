@@ -17,8 +17,7 @@
 
 .link {
 	font-size: 1.4rem;
-	font-family: 'Josefin Slab', sans-serif;
-	font-weight: 400;
+	composes: regular from global;
 }
 
 .link a:hover {

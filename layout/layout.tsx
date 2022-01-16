@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import classes from './layout.module.css';
 import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
 
 const Layout: React.FC = ({ children }) => {
 	return (
@@ -12,7 +13,7 @@ const Layout: React.FC = ({ children }) => {
 			</Head>
 			<Header />
 			<main className={classes.main}>{children}</main>
-			<footer>Footer</footer>
+			<Footer />
 		</div>
 	);
 };
