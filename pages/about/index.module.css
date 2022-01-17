@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  composes: animate from global;
+}
+
+.title {
+  font-size: 1.8rem;
+  composes: bold from global;
+  margin: 1rem 0;
+}
+
+.subTitle {
+  font-size: 1.6rem;
+  composes: regular from global;
+  margin: 1rem 0;
+}
+
+.info {
+  font-size: 1.4rem;
+  composes: normal from global;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.socialLink:hover {
+  color: #ff0000;
+  transition: 2s;
+}
+
+@media only screen and (min-width: 60em) {
+	/* For tablets: */
+	.title {
+    font-size: 2.4rem;
+    margin: 1.5rem 0;
+  }
+
+  .subTitle {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+  }
+
+  .info {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 76.8em) {
+	/* For desktop: */
+	.title {
+    font-size: 3.2rem;
+    margin: 2rem 0;
+  }
+
+  .subTitle {
+    font-size: 2.6rem;
+    margin: 2rem 0;
+  }
+
+  .info {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}

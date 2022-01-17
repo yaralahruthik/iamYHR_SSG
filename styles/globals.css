@@ -20,6 +20,10 @@ body {
 	animation: fade 4s forwards;
 }
 
+.animate {
+	animation: fade 4s forwards;
+}
+
 @keyframes fade {
 	0% {
 		opacity: 0;
