@@ -7,7 +7,7 @@
 	box-sizing: inherit;
 }
 
-/* For rem size */
+/* For rem size 10px -> 1rem */
 html {
 	font-size: 62.5%;
 }
