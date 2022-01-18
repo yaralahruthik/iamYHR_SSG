@@ -7,7 +7,11 @@
   text-align: center;
   gap: 2rem;
   font-size: 1.6rem;
+<<<<<<< HEAD
   composes: normal animate from global;
+=======
+  composes: normal from global;
+>>>>>>> b1b67a0455e96c3cfb80585e41961b0cebed2cdd
 }
 
 .mail:hover {
