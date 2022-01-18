@@ -27,11 +27,37 @@ const Contact: NextPage = () => {
         If you like my work, you can follow me anywhere for updates
       </p>
       <div className={classes.icons}>
-        <AiOutlineInstagram />
-        <AiOutlineTwitter />
-        <AiOutlineGithub />
-        <AiFillLinkedin />
-        <AiFillMediumSquare />
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://www.instagram.com/i_m_yhr/'
+        >
+          <AiOutlineInstagram className={classes.instagramIcon} />
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://twitter.com/yaralahruthik'
+        >
+          <AiOutlineTwitter className={classes.twitterIcon} />
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/yaralahruthik'
+        >
+          <AiOutlineGithub className={classes.githubIcon} />
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://www.linkedin.com/in/yarala-hruthik-reddy/'
+        >
+          <AiFillLinkedin className={classes.linkedInIcon} />
+        </a>
+        <a target='_blank' rel='noreferrer' href='https://iamyhr.medium.com/'>
+          <AiFillMediumSquare className={classes.mediumIcon} />
+        </a>
       </div>
     </article>
   );
