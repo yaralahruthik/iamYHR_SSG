@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  font-size: 1.6rem;
+  composes: normal from global;
+}
+
+.mail:hover {
+  color: red;
+  transition: 2s;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.instagramIcon:hover {
+  color: #bc2a8d;
+  transition: 0.6s;
+}
+
+.twitterIcon:hover {
+  color: #1DA1F2;
+  transition: 0.6s;
+}
+
+.githubIcon:hover {
+  color: #808080;
+  transition: 0.6s;
+}
+
+.linkedInIcon:hover {
+  color: #2867B2;
+  transition: 0.6s;
+}
+
+.mediumIcon:hover {
+  color: #808080;
+  transition: 0.6s;
+}
+
+@media only screen and (min-width: 60em) {
+  /* For tablets: */
+  .container {
+    font-size: 1.6rem;
+  }
+
+  .icons {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 76.8em) {
+  /* For desktop: */
+  .container {
+    font-size: 2rem;
+  }
+
+  .icons {
+    font-size: 2.4rem;
+  }
+}
