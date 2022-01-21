@@ -7,14 +7,14 @@
 	composes: normal from global;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 37.5em) {
 	/* For tablets: */
 	.footer {
 		font-size: 1.4rem;
 	}
 }
 
-@media only screen and (min-width: 76.8em) {
+@media only screen and (min-width: 48em) {
 	/* For desktop: */
 	.footer {
 		font-size: 1.6rem;
