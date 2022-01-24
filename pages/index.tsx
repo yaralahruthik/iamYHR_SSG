@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <article className={classes.container}>
       <div className={classes.line} />
       <div className={classes.img}>
-        <Image src={Me} alt='Author' />
+        <Image src={Me} alt='Author' placeholder='blur' />
       </div>
       <div className={classes.intro}>
         <h1 className={classes.title}>#iamYHR</h1>
