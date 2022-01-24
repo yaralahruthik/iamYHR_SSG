@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
-import logo from '../../public/logo.png';
+import logo from '../../public/logo.webp';
 import classes from './header.module.css';
 
 const Header: React.FC = () => {
