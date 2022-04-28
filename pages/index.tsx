@@ -8,9 +8,6 @@ const Home: NextPage = () => {
   return (
     <article className={classes.container}>
       <div className={classes.line} />
-      <div className={classes.img}>
-        <Image src={Me} alt='Author' placeholder='blur' />
-      </div>
       <div className={classes.intro}>
         <h1 className={classes.title}>#iamYHR</h1>
         <h2 className={classes.subTitleOne}>Developer? Writer? Photographer?</h2>
