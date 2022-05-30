@@ -1,8 +1,10 @@
 .container {
+  composes: normal animate from global;
   gap: 2rem;
   font-size: 1.6rem;
-  composes: normal animate from global;
   position: relative;
+  min-height: 100%;
+  margin-bottom: 40rem;
 }
 
 .line {

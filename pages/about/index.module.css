@@ -1,4 +1,5 @@
 .container {
+  composes: animate from global;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,24 +7,23 @@
   width: 90%;
   margin: 0 auto 1rem auto;
   text-align: center;
-  composes: animate from global;
 }
 
 .title {
-  font-size: 1.8rem;
   composes: bold from global;
+  font-size: 1.8rem;
   margin: 1rem 0;
 }
 
 .subTitle {
-  font-size: 1.6rem;
   composes: regular from global;
+  font-size: 1.6rem;
   margin: 1rem 0;
 }
 
 .info {
-  font-size: 1.4rem;
   composes: normal from global;
+  font-size: 1.4rem;
   line-height: 1.25;
   margin-bottom: 1rem;
 }

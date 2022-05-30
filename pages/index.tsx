@@ -1,8 +1,6 @@
 import type { NextPage } from 'next';
 
 import classes from './index.module.css';
-import Me from '../public/me.webp';
-import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
